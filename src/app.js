@@ -19,7 +19,7 @@ db.authenticate() //Devuelve una promesa
 //Una vez autenticamos, sincronizamos con la base de datos:
 db.sync({force: false}) //Devuelve una promesa  
 //Force sirve para borrar datos de tablas en caso se modifiquen
-    .then(()=> console.log("Sincronizado correctamente"))
+    .then(()=> console.log("Todo en orden capi 8)"))
     .catch((err)=> console.log("Hubo un error al sincronizar con la Base de Datos ", err))
     //Nuestra app usará express y sus funciones
 const app = express()
